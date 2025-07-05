@@ -1,0 +1,23 @@
+ body {
+      background-color: #f9d5dc; /* світлий фон */
+      padding: 30px;
+      font-family: sans-serif;
+    }
+
+    ol {
+      padding: 15px;
+      list-style-position: inside;
+    }
+
+    li {
+      background-color: #cc4c6f; /* темний рожевий */
+      margin-bottom: 15px;
+      padding: 15px;
+    }
+
+    span {
+      background-color: #991c39; /* найтемніший фон прямо під текстом */
+      color: white;
+      padding: 15px;
+      display: inline-block;
+    }
