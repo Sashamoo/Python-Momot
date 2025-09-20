@@ -1,0 +1,132 @@
+#include <iostream>
+using namespace std;
+
+
+// Завдання 1
+
+/*
+int main() {
+    int number;
+    cout << "Введіть число >>> ";
+    cin >> number;
+    (number % 2 == 0) ? cout << number << " є парним.\n" : cout << number << " є непарним.\n";
+}
+*/
+
+
+// Завдання 2
+
+/*
+int main() {
+    int a, b;
+    cout << "Введіть два числа >>> ";
+    cin >> a >> b;
+    int min = (a < b) ? a : b;
+    cout << "Менше число: " << min << endl;
+}
+*/
+
+
+// Завдання 3
+
+/*
+int main() {
+    int a;
+    cout << "Введіть число >>> ";
+    cin >> a;
+    if (a > 0) {
+        cout << "Число додатнє" << endl;
+    }
+    else if (a < 0) {
+        cout << "Число від'ємне" << endl;
+    }
+    else {
+        cout << "Число дорівнює нулю" << endl;
+    }
+}
+*/
+
+
+// Завдання 4
+
+/*
+int main() {
+    int a, b;
+    cout << "Введіть два числа >>> ";
+    cin >> a >> b;
+    if (a == b) {
+        cout << "Числа рівні." << endl;
+    }
+    else {
+        int min = (a < b) ? a : b;
+        int max = (a > b) ? a : b;
+        cout << "Числа за зростанням: " << min << " " << max << endl;
+    }
+}
+*/
+
+
+// Завдання 5
+
+/*
+int main() {
+    int a, b, c, d, e;
+    cout << "Введіть 5 оцінок >>> ";
+    cin >> a >> b >> c >> d >> e;
+    float avg = (a + b + c + d + e) / 5.0; // float для точності
+    cout << "Середня оцінка: " << avg << endl;
+    if (avg >= 4.0) {
+        cout << "Студент допускається до іспиту." << endl;
+    }
+    else {
+        cout << "Студент не допускається до іспиту." << endl;
+    }
+}
+*/
+
+
+// Завдання 6
+/*
+int main() {
+    int n;
+    cout << "Введіть число >>> ";
+    cin >> n;
+    int res = (n % 2 == 0) ? n * 3 : n / 2;
+    cout << "Результат: " << res << endl;
+}
+*/
+
+
+// Завдання 7
+
+/*
+int main() {
+    int a, b;
+    cout << "Введіть два числа >>> ";
+    cin >> a >> b;
+
+    char op;
+    cout << "Введіть оператор (+, -, *, /) >>> ";
+    cin >> op;
+
+    switch (op) {
+        case '+':
+            cout << a << " + " << b << " = " << a + b << endl;
+            break;
+        case '-':
+            cout << a << " - " << b << " = " << a - b << endl;
+            break;
+        case '*':
+            cout << a << " * " << b << " = " << a * b << endl;
+            break;
+        case '/':
+            if (b != 0)
+                cout << a << " / " << b << " = " << a / b << endl;
+            else
+                cout << "Помилка: ділення на нуль!" << endl;
+            break;
+        default:
+            cout << "Помилка: невірний оператор!" << endl;
+            break;
+    }
+}*/
