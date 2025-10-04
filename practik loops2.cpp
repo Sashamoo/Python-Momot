@@ -9,7 +9,6 @@ int main() {
         int width, height;
         char ch;
 
-        cout << "Завдання 1: Прямокутник заповнений\n";
         cout << "Введіть ширину: ";
         cin >> width;
         cout << "Введіть висоту: ";
@@ -35,7 +34,6 @@ int main() {
         int width, height;
         char ch;
 
-        cout << "Завдання 2: Прямокутник порожній\n";
         cout << "Введіть ширину: ";
         cin >> width;
         cout << "Введіть висоту: ";
